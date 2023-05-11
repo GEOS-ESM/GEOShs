@@ -1,1 +1,1 @@
-# geos-template-repo
+# GEOS Held-Suarez Model
