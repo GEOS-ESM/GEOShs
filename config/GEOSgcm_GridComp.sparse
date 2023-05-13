@@ -1,0 +1,8 @@
+/*
+!/GEOSdataatm_GridComp
+!/GEOSmkiau_GridComp
+!/GEOSogcm_GridComp
+!/GEOSagcm_GridComp/GEOSphysics_GridComp
+!/GEOSagcm_GridComp/GEOSsuperdyn_GridComp/ARIESg3_GridComp
+!/GEOSagcm_GridComp/GEOSsuperdyn_GridComp/FVdycore_GridComp
+!/GEOSagcm_GridComp/GEOSsuperdyn_GridComp/GEOSdatmodyn_GridComp
