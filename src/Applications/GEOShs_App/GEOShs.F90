@@ -25,10 +25,9 @@ program GEOS5_Main
    type (MAPL_CapOptions) :: cap_options
    integer :: status
 
-   cli = MAPL_FlapCLI(description = 'GEOS HS', &
-                                     authors     = 'GMAO')
+   cli = MAPL_FlapCLI(description = 'GEOS HS', authors = 'GMAO')
    cap_options = MAPL_CapOptions(cli)
-   cap = MAPL_Cap('GCM', ROOT_SetServices, cap_options = cap_options)
+   cap = MAPL_Cap('AGCM', ROOT_SetServices, cap_options = cap_options)
 
    call cap%run(_RC)
 
