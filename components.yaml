@@ -1,4 +1,4 @@
-GEOSgcm:
+GEOShs:
   fixture: true
   develop: main
 
