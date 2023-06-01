@@ -5,13 +5,13 @@ GEOShs:
 env:
   local: ./@env
   remote: ../ESMA_env.git
-  branch: based-on-v4.9.1
+  tag: 4.9.3+CUDA
   develop: main
 
 cmake:
   local: ./@cmake
   remote: ../ESMA_cmake.git
-  branch: based-on-v3.28.0
+  tag: 3.29.0+OpenACC
   develop: develop
 
 ecbuild:
@@ -29,14 +29,14 @@ NCEP_Shared:
 GMAO_Shared:
   local: ./src/Shared/@GMAO_Shared
   remote: ../GMAO_Shared.git
-  tag: v1.8.0
+  tag: v1.9.0
   sparse: ./config/GMAO_Shared.sparse
   develop: main
 
 MAPL:
   local: ./src/Shared/@MAPL
   remote: ../MAPL.git
-  tag: v2.38.0
+  tag: v2.39.1
   develop: develop
 
 FMS:
@@ -48,20 +48,20 @@ FMS:
 GEOSgcm_GridComp:
   local: ./src/Components/@GEOSgcm_GridComp
   remote: ../GEOSgcm_GridComp.git
-  branch: based-on-v2.0.0
+  tag: 2.1.2+Held-Suarez
   sparse: ./config/GEOSgcm_GridComp.sparse
   develop: develop
 
 FVdycoreCubed_GridComp:
   local: ./src/Components/@GEOSgcm_GridComp/GEOSagcm_GridComp/GEOSsuperdyn_GridComp/@FVdycoreCubed_GridComp
   remote: ../FVdycoreCubed_GridComp.git
-  tag: v2.4.0
+  tag: 2.4.0+separate-init
   develop: dsl/develop
 
 fvdycore:
   local: ./src/Components/@GEOSgcm_GridComp/GEOSagcm_GridComp/GEOSsuperdyn_GridComp/@FVdycoreCubed_GridComp/@fvdycore
   remote: ../GFDL_atmos_cubed_sphere.git
-  branch: geos/dsl/develop
+  tag: aquaplanet-validation-gcm-v11.0.3
   develop: geos/dsl/develop
 
 gtFV3:
