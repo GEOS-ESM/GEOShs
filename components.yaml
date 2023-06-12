@@ -6,13 +6,13 @@ env:
   local: ./@env
   remote: ../ESMA_env.git
   tag: 4.9.3+CUDA
-  develop: main
+  develop: dsl/develop
 
 cmake:
   local: ./@cmake
   remote: ../ESMA_cmake.git
   tag: 3.29.0+OpenACC
-  develop: develop
+  develop: dsl/develop
 
 ecbuild:
   local: ./@cmake/@ecbuild
