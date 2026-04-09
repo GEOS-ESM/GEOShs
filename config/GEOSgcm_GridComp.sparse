@@ -3,6 +3,8 @@
 !/GEOSdataatm_GridComp
 !/GEOSmkiau_GridComp
 !/GEOSogcm_GridComp
+!/GEOSgigatraj_GridComp
+!/GEOSwgcm_GridComp
 !/GEOSagcm_GridComp/GEOS_AgcmGridComp.F90
 !/GEOSagcm_GridComp/GEOSphysics_GridComp
 !/GEOSagcm_GridComp/GEOSsuperdyn_GridComp/ARIESg3_GridComp
