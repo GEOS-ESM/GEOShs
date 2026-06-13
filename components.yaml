@@ -22,14 +22,14 @@ ecbuild:
 GMAO_Shared:
   local: ./src/Shared/@GMAO_Shared
   remote: ../GMAO_Shared.git
-  branch: release/MAPL-v3
+  branch: mapl3.0.0-alpha.2
   sparse: ./config/GMAO_Shared.sparse
   develop: develop
 
 GEOS_Util:
   local: ./src/Shared/@GMAO_Shared/@GEOS_Util
   remote: ../GEOS_Util.git
-  branch: release/MAPL-v3
+  branch: mapl3.0.0-alpha.2
   develop: develop
 
 GMAO_perllib:
@@ -41,7 +41,7 @@ GMAO_perllib:
 MAPL:
   local: ./src/Shared/@MAPL
   remote: ../MAPL.git
-  branch: develop
+  branch: v3.0.0-alpha.2
   develop: develop
 
 GEOS_FieldDictionary:
@@ -53,18 +53,18 @@ GEOS_FieldDictionary:
 GEOSgcm_GridComp:
   local: ./src/Components/@GEOSgcm_GridComp
   remote: ../GEOSgcm_GridComp.git
-  branch: release/MAPL-v3
+  branch: mapl3.0.0-alpha.2
   sparse: ./config/GEOSgcm_GridComp.sparse
   develop: develop
 
 FVdycoreCubed_GridComp:
   local: ./src/Components/@GEOSgcm_GridComp/GEOSagcm_GridComp/GEOSsuperdyn_GridComp/@FVdycoreCubed_GridComp
   remote: ../FVdycoreCubed_GridComp.git
-  branch: release/MAPL-v3
+  branch: mapl3.0.0-alpha.2
   develop: develop
 
 fvdycore:
   local: ./src/Components/@GEOSgcm_GridComp/GEOSagcm_GridComp/GEOSsuperdyn_GridComp/@FVdycoreCubed_GridComp/@fvdycore
   remote: ../GFDL_atmos_cubed_sphere.git
-  branch: geos/release/MAPL-v3
+  branch: mapl3.0.0-alpha.2
   develop: develop
